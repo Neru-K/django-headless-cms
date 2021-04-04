@@ -145,10 +145,7 @@ REST_FRAMEWORK = {
     ],
 }
 
-CORS_ORIGIN_WHITELIST = (
-    'http://127.0.0.1:8000',
-    'http://kokeyasumi.gonna.jp',
-)
+CORS_ORIGIN_WHITELIST = env.list("WHITELIST")
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
