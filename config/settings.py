@@ -145,7 +145,7 @@ REST_FRAMEWORK = {
     ],
 }
 
-CORS_ORIGIN_WHITELIST = env.list("WHITELIST")
+CORS_ALLOWED_ORIGINS = env.list("WHITELIST")
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
