@@ -12,10 +12,10 @@ class PostViewSet(viewsets.ModelViewSet):
     serializer_class = PostSerializer
 
 
-# class UserViewSet(viewsets.ModelViewSet):
-#     queryset = get_user_model().objects.all()
-#     serializer_class = UserSerializer
-
-class UserViewSet(viewsets.ReadOnlyModelViewSet):
+class UserViewSet(viewsets.ModelViewSet):
     queryset = get_user_model().objects.all()
     serializer_class = UserSerializer
+
+# class UserViewSet(viewsets.ReadOnlyModelViewSet):
+#     queryset = get_user_model().objects.all()
+#     serializer_class = UserSerializer
