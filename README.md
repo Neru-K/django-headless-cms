@@ -1,5 +1,5 @@
 I'd like to build a Headless CMS with Django, but I haven't done anything with it yet.  
-In learning Django, I was very grateful for the following books written by Mr.William S. Vincent.  
+The following books written by Mr. William S. Vincent was a great help in learning Django.  
 My sincere thanks and respect to him.  
 
 "Django for Beginners: Build Websites with Python and Django"  
